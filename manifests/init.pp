@@ -3,9 +3,9 @@
 # Examples
 #
 #   include vlc
-class vlc ($version = '2.1.4') {
+class vlc ($version = '2.2.1') {
   package { 'VLC':
     provider => 'appdmg',
-    source   => "http://artfiles.org/videolan.org/vlc/${version}/macosx/vlc-${version}.dmg",
+    source   => "http://free.nchc.org.tw/vlc/vlc/${version}/macosx/vlc-${version}.dmg"
   }
 }
