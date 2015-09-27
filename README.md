@@ -1,6 +1,5 @@
 # VLC Puppet Module for Boxen
-[![Build
-Status](https://travis-ci.org/boxen/puppet-vlc.png?branch=master)](https://travis-ci.org/boxen/puppet-vlc)
+[![Build Status](https://travis-ci.org/TORO-IO/puppet-vlc.svg?branch=master)](https://travis-ci.org/TORO-IO/puppet-vlc)
 
 
 ## Usage
@@ -10,7 +9,7 @@ include vlc
 ```
 
 ```puppet
-class { 'vlc': 
+class { 'vlc':
   version => '2.1.4'
 }
 ```
